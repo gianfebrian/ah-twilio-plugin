@@ -15,8 +15,8 @@
   "author": "Gian Febrian",
   "license": "GPL",
   "dependencies": {
-    "lodash": "^4.2.0",
-    "twilio": "^0.14.0"
+    "twilio": "^2.8.0",
+    "lodash": "^4.2.0"
   },
   "devDependencies": {
     "chai": "^3.5.0",
