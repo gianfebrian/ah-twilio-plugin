@@ -11,9 +11,9 @@ module.exports = {
     api.twilio = twilio(config.SID, config.AUTH_TOKEN);
     api.twilio.buildParams = function(options) {
       options = options || {};
-      options.from = options.from || config.from[options.config.from];
-      options.url = options.url || config.url[options.config.url];
-      options.body = options.body || config.url[(options.config.template || {}).name];
+      options.from = options.from || config.from[options.config.from || 'default'];
+      options.url = options.url || config.url[options.config.url || 'defaut'] || '';
+      options.body = options.body || config.template[(options.config.template || {}).name || 'default'] || '';
 
       _.templateSettings.interpolate = /{{([\s\S]+?)}}/g;
       var template = _.template(options.body);
