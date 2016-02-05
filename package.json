@@ -1,0 +1,27 @@
+{
+  "name": "ah-twilio-plugin",
+  "version": "0.0.1",
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:gianfebrian/ah-twilio-plugin.git"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "ah-twilio-plugin"
+  ],
+  "author": "Gian Febrian",
+  "license": "GPL",
+  "dependencies": {
+    "lodash": "^4.2.0",
+    "twilio": "^0.14.0"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "chai-factories": "^0.1.0",
+    "faker": "^3.0.1",
+    "request": "^2.69.0"
+  }
+}
