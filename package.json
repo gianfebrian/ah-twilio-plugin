@@ -1,7 +1,7 @@
 {
   "name": "ah-twilio-plugin",
   "version": "0.0.1",
-  "description": "",
+  "description": "Actionhero twilio plugin",
   "repository": {
     "type": "git",
     "url": "git@github.com:gianfebrian/ah-twilio-plugin.git"
