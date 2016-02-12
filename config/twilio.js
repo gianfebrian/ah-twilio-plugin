@@ -2,12 +2,12 @@ exports.default = {
   twilio: function(api) {
     return {
       // your Twilio SID.
-      SID: '',
+      SID: 'ACda77f00b0b0debee92c3d1de22bc0f8c',
       // your Twilio Auth Token.
-      AUTH_TOKEN: '',
+      AUTH_TOKEN: '01ee331430bb729185230ec15849515e',
       // list of predefined from numbers. It will be used when you call buildOptions method for sending sms/message.
       from: {
-        default: ''
+        default: '+16468879888'
         // add more here. if you have more than one twilio number
       },
       // list of predefined urls. It will be used when you call buildOptions method for making a call. 
@@ -16,6 +16,7 @@ exports.default = {
       },
       // sms body template
       template: {
+        default: 'Hello {{ name }}',
         hello: 'Hello {{ name }}'
       }
     }
